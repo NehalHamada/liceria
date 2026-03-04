@@ -14,7 +14,6 @@ function ProductsSection() {
     const update = () => {
       const isMobile = window.matchMedia("(max-width: 640px)").matches;
       setVisible(isMobile ? 1 : 3);
-      // Ensure currentIndex is valid after changing visible
       if (currentIndex > total - (isMobile ? 1 : 3)) {
         setCurrentIndex(Math.max(0, total - (isMobile ? 1 : 3)));
       }

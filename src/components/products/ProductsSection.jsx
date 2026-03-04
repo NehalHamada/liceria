@@ -35,7 +35,7 @@ function ProductsSection() {
   const visibleProducts = products.slice(currentIndex, currentIndex + visible);
   return (
     <div className="container mx-auto py-12 px-4 text-right">
-      <h2 className="text-3xl sm:text-4xl font-bold mb-2 text-gray-800">
+      <h2 className="text-3xl mb-5 sm:text-4xl font-bold text-gray-800">
         منتجات جاهزة للطلب
       </h2>
       <p className="text-gray-600 mb-8 text-right">
